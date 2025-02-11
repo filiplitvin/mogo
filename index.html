@@ -4,75 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoGo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100..900&family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
-      <a href="#">MoGo</a>
-      <nav>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#services">SERVICE</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+    <header class="header">
+      <a class="title" href="#">MoGo</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICE</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">WORK</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <!-- services -->
-      <section id="services">
-        <ul>
-          <li>
-            <div>
-              <img src="#" alt="clock" />
+      <section class="hero" id="services">
+        <h2 class="hero-title">We work with</h2>
+        <h2 class="hero-second-title">Amazing Services</h2>
+        <ul class="hero-list">
+          <li class="hero-item">
+            <div class="hero-photo">
+              <img class="hero-img" src="#" alt="clock" />
             </div>
-            <p>
+            <p class="hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="#" alt="graf" />
+          <li class="hero-item">
+            <div class="hero-photo">
+              <img class="hero-img" src="#" alt="graf" />
             </div>
-            <p>
+            <p class="hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="#" alt="" />
+          <li class="hero-item">
+            <div class="hero-photo">
+              <img class="hero-img" src="#" alt="" />
             </div>
-            <p>
+            <p class="hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="#" alt="clock" />
+          <li class="hero-item">
+            <div class="hero-photo">
+              <img class="hero-img" src="#" alt="clock" />
             </div>
-            <p>
+            <p class="hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="#" alt="clock" />
+          <li class="hero-item">
+            <div class="hero-photo">
+              <img class="hero-img" src="#" alt="clock" />
             </div>
-            <p>
+            <p class="hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="#" alt="clock" />
+          <li class="hero-item">
+            <div class="hero-photo">
+              <img class="hero-img" src="#" alt="clock" />
             </div>
-            <p>
+            <p class="hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
@@ -80,55 +91,66 @@
         </ul>
       </section>
       <!-- team -->
-      <section>
-        <hgroup>
-          <p>Who we are</p>
-          <h2>Amazing Services</h2>
+      <section class="about">
+        <hgroup class="about-hgroup">
+          <h2 class="about-title">Who we are</h2>
+          <h2 class="hero-second-title">Meet our team</h2>
         </hgroup>
-        <p>
+        <p class="hero-paragraph">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
           sapiente perferendis unde earum praesentium? Qui, reiciendis officiis
           commodi soluta dolor consequatur alias nulla asperiores maxime
           voluptatem vero ex. Eos, eum.
         </p>
-        <ul>
-          <li>
-            <article>
-              <div>
-                <img src="./src/img/team/first-man 1.jpg" alt="Mattew Dix" />
+        <ul class="team-list">
+          <li class="team-item">
+            <article class="team-card">
+              <div class="team-photo">
+                <img
+                  class="team-img"
+                  src="./src/img/team/first-man 1.jpg"
+                  alt="Mattew Dix"
+                />
               </div>
-              <h3>Mattew Dix</h3>
-              <p>Graphic Design</p>
+              <h3 class="team-under-title">Mattew Dix</h3>
+              <p class="team-text">Graphic Design</p>
             </article>
           </li>
-          <li>
-            <article>
-              <div>
+          <li class="team-item">
+            <article class="team-card">
+              <div class="team-photo">
                 <img
+                  class="team-img"
                   src="./src/img/team/second-man 1.jpg"
                   alt="Christopher Campbell"
                 />
               </div>
-              <h3>Christopher Campbell</h3>
-              <p>Branding/UX design</p>
+              <h3 class="team-under-title">Christopher Campbell</h3>
+              <p class="team-text">Branding/UX design</p>
             </article>
           </li>
-          <li>
-            <article>
-              <div>
-                <img src="src/img/team/michael 1.jpg" alt="Michael" />
+          <li class="team-item">
+            <article class="team-card">
+              <div class="team-photo">
+                <img
+                  class="team-img"
+                  src="src/img/team/michael 1.jpg"
+                  alt="Michael"
+                />
               </div>
-              <h3>Michael Fertig</h3>
-              <p>Developer</p>
+              <h3 class="team-under-title">Michael Fertig</h3>
+              <p class="team-text">Developer</p>
             </article>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <p>© 2016 MoGo free PSD template by <span>Laaqiq</span></p>
-      <input type="email" placeholder="Your Email" />
-      <button type="submit">Subscribe</button>
+    <footer class="footer">
+      <p class="footer-policy">
+        © 2016 MoGo free PSD template by <span>Laaqiq</span>
+      </p>
+      <input class="footer-id" type="email" placeholder="Your Email" />
+      <button class="footer-button" type="submit">Subscribe</button>
     </footer>
   </body>
 </html>

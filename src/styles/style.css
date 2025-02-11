@@ -1,0 +1,73 @@
+:root {
+  --colorTextTitle: #333333;
+  --colorTextDescription: #b6b6b6;
+  --colorTextLine: #f38181;
+  --colorTextBG: #ffffff;
+  --colorTextPolicy: #000000;
+  --colorTextSecondary: #95e1d3;
+}
+body {
+  font-family: "Montserrat", serif;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--colorTextSecondary);
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--colorTextSecondary);
+  text-decoration: none;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--colorTextDescription);
+  font-family: "Roboto", serif;
+}
+.about-title {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Kaushan Script", serif;
+}
+.hero-second-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Kaushan Script", serif;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.hero-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: var(--colorTextDescription);
+  font-family: "Roboto", serif;
+}
+.team-under-title {
+  font-weight: 400;
+  font-size: 14px;
+}
+.team-text {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  color: var(--colorTextDescription);
+}
+.footer-policy {
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-button {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: var(--colorTextSecondary);
+}
