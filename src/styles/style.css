@@ -20,6 +20,9 @@ body {
   color: var(--colorTextSecondary);
   text-decoration: none;
 }
+.nav-link:hover {
+  color: var(--colorTextLine);
+}
 .hero-text {
   font-weight: 400;
   font-size: 15px;
