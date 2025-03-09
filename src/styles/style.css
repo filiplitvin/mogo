@@ -16,10 +16,19 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .title {
   font-weight: 700;
   font-size: 30px;
   color: var(--colorTextSecondary);
+}
+.nav-list {
+  display: flex;
+  gap: 55px;
 }
 .nav-link {
   font-weight: 400;
